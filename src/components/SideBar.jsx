@@ -1,14 +1,11 @@
-import React from "react";
+import * as React from 'react';
+
 
 function Sidebar() {
-  return(
-    <aside id="sidebar">
-      <div className='sidebar-title'>
-        <div className='sidebar-brand'>
-        </div>
-      </div>
-    </aside>
-  )
+  return (
+    <>
+    </>
+  );
 }
 
-export default Sidebar
+export default Sidebar;

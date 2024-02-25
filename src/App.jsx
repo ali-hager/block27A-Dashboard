@@ -1,11 +1,12 @@
 import Table from './components/Table';
 import './App.css'
 import Header from './components/Header';
-// import Sidebar from './components/Sidebar'
+import Sidebar from './components/Sidebar'
 // import Revenue from './components/Revenue';
 import ClientNums from './components/ClientNums'
 import Grid from "@mui/material/Grid";
 import Revenue from './components/Revenue';
+import Login from './components/Login';
 
 function App() {
   
@@ -24,6 +25,11 @@ function App() {
       <Grid container direction="row" justifyContent="center" alignItems="center" item md={6} xs={8}>
         <ClientNums />
       </Grid>
+
+      <Grid item md={2} s={12}>
+          <Sidebar />
+          <Login />
+        </Grid>
 
       <Grid item md={10} s={12}>
         <h2>Transactions</h2>
